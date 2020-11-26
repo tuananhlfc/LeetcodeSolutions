@@ -11,7 +11,7 @@ struct TestCase {
 int main() {
     std::vector<TestCase> testCases;
     testCases.emplace_back(3, 2);
-    testCases.emplace_back(1, 2);
+    testCases.emplace_back(1, 1);
     testCases.emplace_back(0, 0);
     testCases.emplace_back(27, 196'418);
     testCases.emplace_back(36, 14'930'352);
